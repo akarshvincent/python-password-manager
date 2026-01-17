@@ -76,7 +76,6 @@ logo_img = PhotoImage(file = "logo2.png")
 canvas.create_image(100, 100 , image = logo_img)
 canvas.grid(column = 1, row = 0 )
 
-#Label
 label1 = Label(text= "Website:")
 label1.grid(column= 0, row =  1 )
 
@@ -86,7 +85,6 @@ label2.grid(column= 0, row =  2 )
 label3 = Label(text= "Password:")
 label3.grid(column= 0, row =  3 )
 
-#Entries
 
 entry_web = Entry(width=35)
 entry_web.grid(column=1, row=1, sticky="ew", padx=(0, 5))
@@ -94,12 +92,11 @@ entry_web.focus()
 
 entry_user = Entry(width=35)
 entry_user.grid(column=1, row=2, columnspan=2, sticky="ew")
-entry_user.insert(0, "akvince@email.com")
+entry_user.insert(0, "akarshvincent@gmail.com")
 
 entry_pass = Entry()
 entry_pass.grid(column=1, row=3, sticky="ew", padx=(0, 5))
 
-#Button
 
 button = Button(text="Generate Password" ,command = handle_generate)
 button.grid(column=2, row=3, sticky="w")

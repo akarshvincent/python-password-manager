@@ -20,3 +20,8 @@ A GUI-based password manager that allows users to securely store and retrieve cr
 2. Install dependencies:
 pip install pyperclip
 3. Run:
+
+## Screenshots
+![Main Interface](screenshot-main.png)
+![Saving](screenshot-savecheck.png)
+![Showing Error](screenshot-error.png)
